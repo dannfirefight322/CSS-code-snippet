@@ -1,0 +1,59 @@
+*{
+    background-color: indigo;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    color: lightcoral;
+}
+.header_text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    color: white;
+}
+.text{
+    font-size: 15px;
+    width: 670px;
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border: dashed 2px;
+    width:300px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+main{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    border:solid;
+    width: 275px;
+    background-color: green;
+}
+.info{
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+    width: 250px;
+    color:greenyellow;
+}
+pre{
+    position: relative;
+    left: 25px;
+    border:solid;
+    width: 250px;
+    height: 170px;
+}
+pre code{
+    font-family: monospace;
+    }
