@@ -19,7 +19,7 @@
         <main>FlexBox Row</main>
         <p class="info">Use these three properties to create a Flexbox row layout</p>
         <pre>
-            <code>
+            <code class="code">
   .row {
   display: flex;
   flex-direction: row; 
@@ -34,7 +34,7 @@
         <main>FlexBox Column</main>
         <p class="info">Use this to create a Flexbox column layout.</p>
         <pre>
-            <code>
+            <code class="code">
 
   .column {
   display: flex;
@@ -49,7 +49,7 @@
         <main>Text</main>
         <p class="info">Build a 12-column layout using CSS grid.</p>
         <pre>
-            <code>
+            <code class="code">
   .grid {
   display: grid;
   width: 100%; 
@@ -65,7 +65,7 @@
         <main>Linear Gradients</main>
         <p class="info">This will create a background linear gradient from top to bottom</p>
         <pre>           
-        <code>
+        <code class="code">
   .linear-gradient-background {
     background-image: linear-
   gradient( 
@@ -80,18 +80,40 @@
 
     </section>
     <section class="card">
-        <main>Text</main>
-        <p class="info">text</p>
-        <p class="code">text</p>
+        <main>Box Transition Glow </main>
+        <p class="info">Use transition and box shadows to glow on hover.</p>
+             <pre>           
+        <code class="code">
+  .code-card .code-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-
+  out;
+  }
+  .code-card:hover .card-header {
+      box-shadow: inset 0px 0px 8px
+  rgba(232, 102, 1). 0 0 15px
+  rgba(232, 102, 236, 1);  
+  }
+            </code>
+        </pre>
     </main>
 
     </section>
     <section class="card">
-        <main>Text</main>
-        <p class="info">text</p>
-        <p class="code">text</p>
+        <main>Overlay card with Title</main>
+        <p class="info">Use position properties and negative margins to raise elements higher than their natural starting point</p>
+        <pre>
+            <code class="code">
+
+  .card-header {
+  position: relative;
+  margin-top: -20px; 
+  }
+            </code>
+        </pre>
     </main>
     </section>
     </section>
+    
 </body>
 </html>
