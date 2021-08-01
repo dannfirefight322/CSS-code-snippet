@@ -71,6 +71,16 @@ pre{
     font-family: monospace;
     font-size: 12px;
 }
+.code1{
+    position: relative;
+    left: 25px;
+    bottom: -17px;
+    border-radius: var(--Radius);
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(var(--Purple),var(--Lpurple));
+    color:var(--Offwhite);
+}
 .card:hover{
     box-shadow:10px 10px 10px 10px var(--Purple);
     cursor: pointer;
