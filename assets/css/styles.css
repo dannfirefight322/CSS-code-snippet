@@ -1,16 +1,24 @@
-*{
-    background-color: indigo;
+:root{
+    --Dark:#363235;
+    --Light:#706c6f;
+    --Purple:#f73bf1;
+    --Lpurple:#b00bb0;
+    --Offwhite:#dedcde;
+    --Radius: 7px;
 }
+body{
+    background-image: linear-gradient(var(--Dark),var(--Light));
+  }
 header{
     text-align: center;
     font-size: 50px;
-    color: lightcoral;
+    color: var(--Purple) ;
 }
 .header_text{
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
-    color: white;
+    color:var(--Offwhite);
 }
 .text{
     font-size: 15px;
@@ -24,7 +32,8 @@ header{
     justify-content: center;
 }
 .card{
-    border: dashed 2px;
+    border: dashed 2px var(--Offwhite);
+    border-radius: var(--Radius);
     width:300px;
     margin-bottom: 40px;
     margin-left: 15px;
@@ -36,24 +45,33 @@ main{
     bottom: 20px;
     font-size: 25px;
     text-align: center;
-    border:solid;
+    border:solid 1px var(--Offwhite);
+    border-radius: var(--Radius);
     width: 275px;
-    background-color: green;
+    background-image: linear-gradient(var(--Dark),var(--Light));
+    color: var(--Purple)
 }
 .info{
     position: relative;
     left: 10px;
     bottom: 30px;
     width: 250px;
-    color:greenyellow;
+    color:var(--Purple);
 }
 pre{
     position: relative;
     left: 25px;
-    border:solid;
+    border-radius: var(--Radius);
     width: 250px;
     height: 200px;
+    background-image: linear-gradient(var(--Purple),var(--Lpurple));
+    color:var(--Offwhite);
 }
 .code{
     font-family: monospace;
+    font-size: 12px;
+}
+.card:hover{
+    box-shadow:10px 10px 10px 10px var(--Purple);
+    cursor: pointer;
 }
