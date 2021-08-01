@@ -68,8 +68,11 @@ pre{
     color:var(--Offwhite);
 }
 .code{
+    position: relative;
+    bottom: 12px;
     font-family: monospace;
     font-size: 12px;
+
 }
 .code1{
     position: relative;
